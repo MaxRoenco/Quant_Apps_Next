@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.quant-apps.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.quant-apps.com/en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.quant-apps.com/ru" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.quant-apps.com/ro" />
+    <lastmod>2025-01-25</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://www.quant-apps.com/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.quant-apps.com/en/services" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.quant-apps.com/ru/services" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.quant-apps.com/ro/services" />
+    <lastmod>2025-01-25</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Us Page -->
+  <url>
+    <loc>https://www.quant-apps.com/en/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.quant-apps.com/en/about-us" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.quant-apps.com/ru/about-us" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.quant-apps.com/ro/about-us" />
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Us Page -->
+  <url>
+    <loc>https://www.quant-apps.com/en/contact-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.quant-apps.com/en/contact-us" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.quant-apps.com/ru/contact-us" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.quant-apps.com/ro/contact-us" />
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQs Page -->
+  <url>
+    <loc>https://www.quant-apps.com/en/faqs</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.quant-apps.com/en/faqs" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.quant-apps.com/ru/faqs" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.quant-apps.com/ro/faqs" />
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
