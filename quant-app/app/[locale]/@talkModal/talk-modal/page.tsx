@@ -30,7 +30,7 @@ const Page = () => {
 
   const [invalidForm, setInvalidForm] = useState(true);
 
-  const serviceId = "service_caidqxy";     // Ваш service ID
+  const serviceId = "service_teo59sv";     // Ваш service ID
   const templateId = "template_e7f0ogb";   // Ваш Template ID
   const publicKey = "S46PU3W0ILp9NXki4";   // Ваш Public Key
 
@@ -77,7 +77,7 @@ const Page = () => {
     const isValidBudget = validateBudget(budget, 0, 25000);
     // Теперь валидной будет форма, если выбран хотя бы один из пяти чекбоксов
     const isCheckboxValid = ios || web || crm || uiux || backend || android;
-    const isBudgetSelected = budgetCheckboxes.some(checkbox => checkbox);
+    const isBudgetSelected = true;
 
     setInvalidForm(
       !isFirstNameValid || !isLastNameValid || !isEmailValid || !isCheckboxValid ||
@@ -119,10 +119,10 @@ const Page = () => {
     validateForm(firstName, lastName, email, iosCheckbox, webCheckbox, crmCheckbox, uiuxCheckbox, backendCheckbox, androidAppCheckbox, budget);
     e.preventDefault();
 
-    if (!budgetCheckboxes.some(checkbox => checkbox)) {
-      alert("Please select a budget range");
-      return;
-    }
+    // if (!budgetCheckboxes.some(checkbox => checkbox)) {
+    //   alert("Please select a budget range");
+    //   return;
+    // }
     // Формируем список выбранных услуг
     const chosenServices = [];
     if (iosCheckbox) chosenServices.push("iOS App");
@@ -163,7 +163,9 @@ const Page = () => {
         setInvalidForm(true);
         router.back();
       }, (err) => {
-        console.log("FAILED...", err);
+        // alert(err);
+        console.log("error");
+        console.log(err);
         alert("Произошла ошибка при отправке. Пожалуйста, попробуйте снова.");
       });
   };
