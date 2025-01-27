@@ -1,11 +1,22 @@
 export function getIntroByLanguage(language : string) {
   switch (language) {
     case "ro":
-      return '/videos/intro-ro.mp4';
+      return '/ru/videos/intro-ro.mp4';
     case "ru":
-      return '/videos/intro-ru.mp4';
+      return '/ru/videos/intro-ru.mp4';
     default:
-      return '/videos/intro-en.mp4';
+      return '/en/videos/intro-en.mp4';
+  }
+}
+
+export function getIntroByLanguageMobile(language : string) {
+  switch (language) {
+    case "ro":
+      return 'ro/videos/intro-ro.mp4';
+    case "ru":
+      return 'ru/videos/intro-ru.mp4';
+    default:
+      return 'en/videos/intro-en.mp4';
   }
 }
 
