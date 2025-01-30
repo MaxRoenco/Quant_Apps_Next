@@ -1,7 +1,7 @@
 export function getIntroByLanguage(language : string) {
   switch (language) {
     case "ro":
-      return '/ru/videos/intro-ro.mp4';
+      return '/ro/videos/intro-ro.mp4';
     case "ru":
       return '/ru/videos/intro-ru.mp4';
     default:
