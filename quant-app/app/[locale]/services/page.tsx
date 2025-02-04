@@ -37,7 +37,7 @@ const Page = async () => {
         <div className="container">
           <div className="working-process">
             <div className="working-process__title">
-              <h1>{t("OurWorkingProcess")}</h1>
+              <h2 className="text-[60px] max-[900px]:text-[32px] font-clash font-[600] text-white">{t("OurWorkingProcess")}</h2>
 
               <p>{t("ComprehensiveGuideBusinessObjectives")}</p>
             </div>
@@ -117,10 +117,10 @@ const Page = async () => {
         <Image src="/icons/Star.svg" width={50} height={50} alt="star" className="w-auto h-auto bottom-[1200px] left-[30px] why-ios__bg-img max-[900px]:hidden" />
         <Image src="/icons/Star.svg" width={50} height={50} alt="star" className="w-[60px] h-auto bottom-[1570px] left-[840px] why-ios__bg-img max-[900px]:hidden opacity-50" />
         
-        <Image src="/icons/Star.svg" width={50} height={50} alt="" className="w-auto h-auto absolute top-[930px] left-[320px]" />
-        <Image src="/icons/Star.svg" width={50} height={50} alt="" className="w-auto h-auto absolute top-[680px] right-[200px]" />
-        <Image src="/icons/Star.svg" width={50} height={50} alt="" className="w-auto h-auto absolute top-[1150px] right-[430px]" />
-        <Image src="/icons/Star.svg" width={50} height={50} alt="" className="w-auto h-auto absolute top-[1430px] left-[250px]" />
+        <Image src="/icons/Star.svg" width={50} height={50} alt="star" className="w-auto h-auto absolute top-[930px] left-[320px]" />
+        <Image src="/icons/Star.svg" width={50} height={50} alt="star" className="w-auto h-auto absolute top-[680px] right-[200px]" />
+        <Image src="/icons/Star.svg" width={50} height={50} alt="star" className="w-auto h-auto absolute top-[1150px] right-[430px]" />
+        <Image src="/icons/Star.svg" width={50} height={50} alt="star" className="w-auto h-auto absolute top-[1430px] left-[250px]" />
       </div>
 
       <NextProject />

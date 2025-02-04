@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    host: 'https://quant-apps.com',
-    sitemap: 'https://quant-apps.com/sitemap.xml',
+    host: `https://${'www.quant-apps.com'}`,
+    sitemap: `https://${'www.quant-apps.com'}/sitemap.xml`,
   }
 }

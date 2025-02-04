@@ -51,12 +51,12 @@ const WhatWeOffer = async () => {
               lineHeight: "40px",
             },
           }}
-          variant="h1"
         >
           {t("WhatWeOffer")}
         </Typography>
 
         <Typography
+          variant="h2"
           sx={{
             fontSize: "16px",
             fontFamily: `"ClashDisplay", "Inter", sans-serif`,
@@ -106,7 +106,7 @@ const WhatWeOffer = async () => {
 
             <Image
               src="/images/items-net-bg.png"
-              alt=""
+              alt="ItemsBg"
               width={1000}
               height={0}
               unoptimized
